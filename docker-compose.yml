@@ -24,6 +24,7 @@ services:
       - mysql
     volumes:
       - '.:/var/www/html'
+      - /var/www/html/node_modules
     networks:
       - node
   localtunnel:
